@@ -38,3 +38,10 @@ void colors_print_bold(char* text, color_t color) {
   printf("%s%s%s", COLORS_PREFIX, COLORS_FONT_BOLD, color_code);
   printf("%s%s", text, COLORS_RESET);
 }
+
+void colors_print_underline(char* text, color_t color) {
+  char* color_code = get_color_code(color);
+
+  printf("%s%s%s", COLORS_PREFIX, COLORS_FONT_UNDERLINE, color_code);
+  printf("%s%s", text, COLORS_RESET);
+}

@@ -2,7 +2,7 @@
 // Created by Landon Thull on 3/4/24.
 //
 
-#include <stdio.h>g
+#include <stdio.h>
 
 #include "colors.h"
 
@@ -42,5 +42,24 @@ int main() {
   printf("Reset\n");
   colors_print_bold("white bold\n", COLOR_WHITE);
   printf("Reset\n");
+
+  // test underlined font colors
+  colors_print_underline("black underline\n", COLOR_BLACK);
+  printf("Reset\n");
+  colors_print_underline("red underline\n", COLOR_RED);
+  printf("Reset\n");
+  colors_print_underline("green underline\n", COLOR_GREEN);
+  printf("Reset\n");
+  colors_print_underline("yellow underline\n", COLOR_YELLOW);
+  printf("Reset\n");
+  colors_print_underline("blue underline\n", COLOR_BLUE);
+  printf("Reset\n");
+  colors_print_underline("purple underline\n", COLOR_PURPLE);
+  printf("Reset\n");
+  colors_print_underline("cyan underline\n", COLOR_CYAN);
+  printf("Reset\n");
+  colors_print_underline("white underline\n", COLOR_WHITE);
+  printf("Reset\n");
+
   return 0;
 }
