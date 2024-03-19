@@ -61,5 +61,22 @@ int main() {
   colors_print_underline("white underline\n", COLOR_WHITE);
   printf("Reset\n");
 
+  // test background colors
+  colors_print_background("black background\n", COLOR_BLACK);
+  printf("Reset\n");
+  colors_print_background("red background\n", COLOR_RED);
+  printf("Reset\n");
+  colors_print_background("green background\n", COLOR_GREEN);
+  printf("Reset\n");
+  colors_print_background("yellow background\n", COLOR_YELLOW);
+  printf("Reset\n");
+  colors_print_background("blue background\n", COLOR_BLUE);
+  printf("Reset\n");
+  colors_print_background("purple background\n", COLOR_PURPLE);
+  printf("Reset\n");
+  colors_print_background("cyan background\n", COLOR_CYAN);
+  printf("Reset\n");
+  colors_print_background("white background\n", COLOR_WHITE);
+  printf("Reset\n");
   return 0;
 }

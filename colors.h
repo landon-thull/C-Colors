@@ -41,8 +41,16 @@ void colors_print_bold(char* text, color_t color);
  * @brief Prints the given text in an underlined font in the given color.
  *
  * @param text The text to print
- * @param color The background color to print with
+ * @param color The underline color to print with
  */
 void colors_print_underline(char* text, color_t color);
+
+/**
+ * @brief Prints the given text in a normal font with the given background color.
+ * 
+ * @param text The text to print
+ * @param color The background color to print with
+ */
+void colors_print_background(char* text, color_t color);
 
 #endif //C_COLORS_LIBRARY_H
